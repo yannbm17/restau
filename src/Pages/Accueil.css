@@ -1,0 +1,36 @@
+body{
+    width: 100vw;
+    overflow-y: scroll;
+  }
+
+.containair{
+    background-image: url('../Assets/images/back_ground_accueil.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    position: relative;
+    color: #cfbd97;
+    padding-left: 40px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif cursive;
+    font-size: 90px;
+    margin: 0;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.search-container{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}

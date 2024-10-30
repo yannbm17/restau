@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.sign-up {
+    display:flex;
+    margin-top:60px;
+    align-items:center; /* S'assurer que tous les éléments s'étendent à la même hauteur */
+    background-color: #ffffff;
+    width: 100%;
+    /*max-width: 1200px; /* Taille maximale de la section */
+    height: 90vh; /* Ajustement en fonction de l'écran */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Pour ajouter un peu de relief */
+    border-radius: 10px; /* Arrondi des coins */
+}
+
+.sign-up .form-container {
+    padding: 5%;
+    padding-left: 10%;
+    max-width: 400px; /* Taille du formulaire */
+    width: auto;
+    height: 100%;
+    align-items: center;
+    justify-content:center;
+    
+    display:block;
+}
+
+.sign-up .image-container {/* Ajuste la taille de l'image à 50% de l'écran */
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    /*align-items: center;*/
+    overflow: hidden; /* Masque tout débordement */
+
+}
+
+.image-container .image {
+    
+    width: auto; /* L'image remplit le conteneur */
+    height: 100%; /* L'image conserve ses proportions */
+    object-fit:cover; /* Assure que l'image reste bien cadrée */
+}
+
+.sign-up .form-container h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.sign-up .form-container .input-group {
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.sign-up .form-container .input-group label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.sign-up .form-container .input-group input {
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.sign-up .form-container .terms {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #b49f80;
+}
+
+.sign-up .form-container button {
+    width: 300px;
+    background-color: #f36b6b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b49f80;
+}
+
+.form-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.form-container p a {
+    color: #4e4141;
+    text-decoration: none;
+}
+
+.form-container p a:hover {
+    text-decoration: underline;
+}
